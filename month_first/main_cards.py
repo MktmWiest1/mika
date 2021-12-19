@@ -1,5 +1,5 @@
 import random
-from cards_13 import compare
+from month_first import compare
 
 
 class BlackJack:
@@ -19,7 +19,7 @@ class BlackJack:
         choose = int(input('Your choice:'))
         while 1:
             compare_1 = compare.CompareCardes(player_list=self.player,
-                                             computer_list=self.computer)
+                                              computer_list=self.computer)
             if choose == 1:
                 self.player.append(random.choice(self.cards))
                 self.computer.append(random.choice(self.cards))

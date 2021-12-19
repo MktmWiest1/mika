@@ -15,8 +15,8 @@ S\ = None breakspace
 
 '''
 
-file_path = 'class_mock_data.txt'
-result_file_path = 'results.txt'
+file_path = '../python_13/class_mock_data.txt'
+result_file_path = '../python_13/results.txt'
 
 file_read = open(file_path, mode='r', encoding='Latin-1')
 final_results = open(result_file_path, mode='w', encoding='Latin-1')
