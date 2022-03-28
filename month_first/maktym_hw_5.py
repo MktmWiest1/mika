@@ -1,4 +1,4 @@
-contacts = [
+contacts = {
     {
         'name': 'Geektech', 'phone': '0507052018'
     },
@@ -8,7 +8,7 @@ contacts = [
     {
         'name': 'Пожарная служба', 'phone': '101'
     },
-]
+}
 
 def show_all_contact(lst):
     for i in lst:

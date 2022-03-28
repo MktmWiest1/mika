@@ -7,11 +7,11 @@ my_text = 'Vasya 1964 vasya@gmail.com %1000$ ' \
 
 '''
 \d = 0-9 Any digit
-\D = Any non digit
+\D =  Любая не цифра
 \w = [A-Z a-z]
-\W = non alphabet symbol
-s\ = breakspace
-S\ = None breakspace
+\W = не алфавитный символ
+s\ = пробел
+S\ = Непробел
 
 '''
 

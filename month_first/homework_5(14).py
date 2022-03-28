@@ -9,7 +9,7 @@ movies = {
 
 
 def show():
-    for name, rates in movies.items(): movies = {
+    for name, rates in movie.items(): movies = {
         "Django Unchained": {
             "John": 10,
             "Jack": 9
